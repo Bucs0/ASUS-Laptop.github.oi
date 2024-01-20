@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ASUS Laptop Homepage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="logo1.png">
+
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to the ASUS Laptop Homepage!</h1>
+    <p1>Discover the power and innovation of ASUS laptops</p>
+  </header>
+
+  <section>
+    <center>
+    <h2>About ASUS Laptops</h2>
+    <p>ASUS laptops are designed to provide exceptional performance and mobility for both work and play.</p>
+  </center>
+  </section>
+  <section>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <center>
+      <img src="asus1.jpg" style="width:54%">
+        </center>
+    </div>
+    <div class="mySlides fade">
+      <center>
+      <img src="asus2.jpg" style="width:30%">
+        </center>
+    </div>
+    <div class="mySlides fade" >
+      <center>
+      <img src="asus3.jpg" style="width:33%">
+        </center>
+    </div>
+    <div class="mySlides fade" >
+      <center>
+      <img src="rog.png" style="width:26%">
+        </center>
+    </div>
+    </section>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <center>
+  <section>
+    <h2>ASUS Laptop Ryzen 7 4000series</h2>
+    <img src="asus.gif" alt="ASUS Laptop">
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Ultra-slim design for ultimate portability</li>
+      <li>Powerful processors for seamless multitasking</li>
+      <li>High-resolution displays for immersive visuals</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Benefits</h2>
+    <ul>
+      <li>Enhanced productivity and efficiency</li>
+      <li>Unmatched gaming and entertainment experience</li>
+      <li>Reliable and durable for long-term use</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Call to Action</h2>
+    <p>Experience the power of ASUS laptops today!</p>
+    <p>Contact: markjadebucao10@gmail.com</p>
+  </section>
+  </center>
+
+  <footer>
+    <p>&copy; 2023 ASUS Laptop Homepage</p>
+  </footer>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex-1].style.display = "block";
+    }
+   
+  </script>
+
+<div class="dropdown">
+  <button class="dropbtn">Menu</button>
+  <div class="dropdown-content">
+    <a href="#DETAILS">DETAILS</a>
+    <a href="#BRANDS">BRANDS</a>
+    <a href="#SPECS">SPECS</a>
+    <a href="#SPECIALS">SPECIALS</a>
+    <a href="#REVIEWS">REVIEWS</a>
+  </div>
+</div>
+
+</body>
+
+</html>
