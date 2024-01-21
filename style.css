@@ -69,7 +69,7 @@ footer {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
