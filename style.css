@@ -64,15 +64,15 @@ footer {
   padding: 20px;
   position: bottom;
   bottom: 60px; 
-  width: 94%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  width: 97%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
   footer a {
     color: white;
     font-size: 55px;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
   }
